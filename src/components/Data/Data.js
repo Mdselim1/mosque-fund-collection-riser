@@ -4,8 +4,11 @@ import Showpersondata from '../Showperson/Showpersondata';
 import Personcart from '../Personcart/Personcart';
 
 const Data = () => {
+
     const [personcart, setPersonCart] = useState([]);
+
     const [displayPerson, setDisplayPerson] = useState([]);
+    
     // const [person, setPerson] = useState([]);
     useEffect(() => {
         fetch('./data.json')
@@ -22,6 +25,7 @@ const Data = () => {
         const newPerson = [...personcart, person];
         setPersonCart(newPerson);
     };
+
     return (
         <div>
            
