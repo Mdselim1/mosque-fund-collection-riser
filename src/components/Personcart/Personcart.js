@@ -1,4 +1,5 @@
 import React from 'react';
+import './Personcart.css';
 
 const Personcart = (props) => {
     console.log(props.cart);
@@ -11,10 +12,15 @@ const Personcart = (props) => {
 
     return (
         <div style={{
-            padding:'20px'
-        }}> 
-            <h1>Total Person : {cart.length}</h1>
-            <h1>Total Fund : $ {totalfund}</h1>
+            textAlign:'center'
+        }}>
+            <div className="person__data__single" style={{
+                
+            }}>
+            <h1 className="single_color">Funding Details</h1>
+            <h2 className="single_color">Total Person : {cart.length}</h2>
+            <h3 className="single_color">Total Fund : $ {totalfund}</h3>
+            </div>
             <ul id="person__name">
                 {
                     cart.map(person => <li style={{

@@ -45,7 +45,6 @@ const Data = () => {
                     </div>
                 </div>
                 <div className="funding__container">
-                    <h1 className="total_header">Total Collect Funding</h1>
                     <Personcart cart={personcart}></Personcart>
                 </div>
             </div>

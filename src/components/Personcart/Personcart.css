@@ -1,0 +1,9 @@
+.person__data__single{
+    border: 2px solid #ddd ;
+    border-radius:  20px;
+    background: crimson;
+    padding: 20px;
+}
+.person__data__single .single_color{
+    color: white;
+}
