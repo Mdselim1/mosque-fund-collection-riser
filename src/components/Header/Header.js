@@ -19,12 +19,10 @@ const Header = () => {
             </div>
 
             <div className="fund__text">
-                <h1>Total Fund Waste In Mosque</h1>
-                <h2>Total Fund : 5000000 $</h2>
+                <h1>Total Fund Collect For Mosque</h1>
+                <h2>Total Fund : 15000000 $</h2>
                 <h3>Courtesy : Olama Songothon Ltd.</h3>
             </div>
-           
-
             </div>
       
     );

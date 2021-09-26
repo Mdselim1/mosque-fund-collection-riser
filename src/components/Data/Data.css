@@ -1,0 +1,26 @@
+.main__container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.all__person__container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 50px;
+}
+
+.person__data__main{
+    border-right: teal solid 2px;
+    padding: 50px;
+}
+.head__title{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.total_header{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0;
+}
