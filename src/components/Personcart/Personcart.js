@@ -2,7 +2,7 @@ import React from 'react';
 import './Personcart.css';
 
 const Personcart = (props) => {
-    console.log(props.cart);
+    
     const { cart } = props;
 
     let totalfund = 0;
